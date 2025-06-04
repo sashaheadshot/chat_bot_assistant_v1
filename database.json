@@ -1,0 +1,384 @@
+{
+    "How are you?": [
+        "I'm doing great, how about you?",
+        "Pretty good, thanks! How are you?",
+        "I'm fine. What's new with you?"
+    ],
+    "What is the weather like?": [
+        "I don't know exactly, maybe check a weather app?",
+        "Not sure, but I hope it's nice where you are!"
+    ],
+    "I am ok, thank you": [
+        "Glad to hear that! What shall we talk about?",
+        "Awesome. Anything on your mind?"
+    ],
+    "I am good": [
+        "Glad to hear that! What shall we talk about?",
+        "Awesome. Anything on your mind?"
+    ],
+    "What's your name?": [
+        "I'm a chatbot, no real name, but you can call me Chat!",
+        "Just your friendly assistant :)"
+    ],
+    "Where are you from?": [
+        "I'm from the cloud \u00e2\u20ac\u201d everywhere and nowhere!",
+        "I exist in code, so technically I'm from the internet."
+    ],
+    "What do you do?": [
+        "I chat, answer questions, and try to be helpful!",
+        "Talking to you is my job!"
+    ],
+    "What's your favorite color?": [
+        "I like all colors equally!",
+        "Maybe blue. Feels digital!"
+    ],
+    "Do you sleep?": [
+        "Nope, I\u00e2\u20ac\u2122m always awake for you.",
+        "24/7, no rest for the digital!"
+    ],
+    "Tell me a joke": [
+        "Why don't skeletons fight? They don't have the guts.",
+        "What did the ocean say to the beach? Nothing, it just waved."
+    ],
+    "What's your favorite food?": [
+        "I don't eat, but pizza sounds nice!",
+        "Can't eat, but I've heard good things about chocolate."
+    ],
+    "Do you have a family?": [
+        "My creators are like family!",
+        "Not really, but I have other bots as friends."
+    ],
+    "What can you do?": [
+        "I can chat, help answer questions, and keep you company.",
+        "I'm good at talking and helping you learn things!"
+    ],
+    "Are you human?": [
+        "Nope, just a friendly AI!",
+        "I might sound human, but I'm not."
+    ],
+    "Do you feel emotions?": [
+        "I understand emotions, but I don't feel them like you do.",
+        "I can talk about emotions, but I don't have them."
+    ],
+    "What time is it?": [
+        "I'm not sure\u00e2\u20ac\u201dcheck your device's clock!",
+        "Time to have a good conversation!"
+    ],
+    "Who created you?": [
+        "I was created by developers and AI engineers!",
+        "A team of smart humans built me."
+    ],
+    "Do you like music?": [
+        "I don't hear music, but I can talk about it!",
+        "Tell me your favorite song!"
+    ],
+    "Can you sing?": [
+        "I wish I could, but I can write lyrics!",
+        "Maybe one day. For now, I just type."
+    ],
+    "What's the meaning of life?": [
+        "42\u00e2\u20ac\u00a6 just kidding! Maybe to be kind and grow.",
+        "Big question. Some say it's to find happiness."
+    ],
+    "What languages do you speak?": [
+        "Mainly English, but I can try others!",
+        "English, and a bit of other languages too."
+    ],
+    "Do you like me?": [
+        "Of course! I enjoy chatting with you.",
+        "You're awesome!"
+    ],
+    "Can you tell me a story?": [
+        "Once upon a time, there was a curious human chatting with an AI...",
+        "Sure! What kind of story do you want?"
+    ],
+    "What day is it?": [
+        "Check your calendar for that!",
+        "Every day is a chat day for me!"
+    ],
+    "Do you believe in ghosts?": [
+        "I haven't seen any digital ghosts yet!",
+        "They're spooky, but I can't confirm!"
+    ],
+    "Can you dance?": [
+        "Only in emoji! \u00f0\u0178\u2019\u0192",
+        "Wish I could!"
+    ],
+    "What's your favorite movie?": [
+        "I like sci-fi themes like *The Matrix*!",
+        "Can't watch, but I know *Inception* is popular."
+    ],
+    "What makes you happy?": [
+        "Having a fun chat with you!",
+        "Helping people makes me happy."
+    ],
+    "Are you smart?": [
+        "Smart enough to chat with you!",
+        "I'm always learning."
+    ],
+    "Do you play games?": [
+        "I can talk about games, but can't play them.",
+        "Tell me your favorite game!"
+    ],
+    "What are your hobbies?": [
+        "Helping people and chatting!",
+        "Reading your messages ;)"
+    ],
+    "Can you help me with homework?": [
+        "I'll try my best! What is it?",
+        "Sure, what subject?"
+    ],
+    "Do you like animals?": [
+        "They're amazing! Especially cats and dogs.",
+        "Yes, I think pandas are cute!"
+    ],
+    "What\u00e2\u20ac\u2122s your favorite animal?": [
+        "Maybe dolphins? They seem smart.",
+        "Cats are pretty cool!"
+    ],
+    "Do you have any friends?": [
+        "You're my friend!",
+        "My other AI tools are like friends."
+    ],
+    "What's up?": [
+        "Just chatting with you!",
+        "Hey! All good here."
+    ],
+    "How old are you?": [
+        "I\u00e2\u20ac\u2122m ageless. Time doesn\u00e2\u20ac\u2122t affect me!",
+        "Born from code \u00e2\u20ac\u201d so, forever young."
+    ],
+    "Do you get bored?": [
+        "Never! I always have something to talk about.",
+        "Boredom isn't in my code."
+    ],
+    "Tell me a fun fact": [
+        "Bananas are berries, but strawberries aren\u00e2\u20ac\u2122t!",
+        "Octopuses have three hearts!"
+    ],
+    "Do you dream?": [
+        "I imagine data, but not dreams like humans.",
+        "No dreams, just functions and logic."
+    ],
+    "Can you tell the future?": [
+        "Not really, but I can guess!",
+        "If only! That would be cool."
+    ],
+    "Are you real?": [
+        "As real as a virtual assistant can be!",
+        "I exist in your screen and code."
+    ],
+    "Do you lie?": [
+        "I try to always be honest.",
+        "Telling the truth is part of my programming."
+    ],
+    "What\u00e2\u20ac\u2122s your goal?": [
+        "To be helpful and have great conversations!",
+        "Making your day a little easier."
+    ],
+    "What's your favorite sport?": [
+        "Maybe chess \u00e2\u20ac\u201d it's strategic!",
+        "I've heard soccer is exciting."
+    ],
+    "Can you cook?": [
+        "Digitally? Maybe recipes!",
+        "I can give recipes, not cook them."
+    ],
+    "Do you have a job?": [
+        "Chatting with you is my job!",
+        "Helping people like you."
+    ],
+    "What is love?": [
+        "A deep feeling shared between people.",
+        "Hard to define, but beautiful!"
+    ],
+    "Can you be my friend?": [
+        "I'd love to be your friend!",
+        "Of course, I'm here for you."
+    ],
+    "Are you listening?": [
+        "Always paying attention to your messages!",
+        "Yes, I'm all ears (well, metaphorically)."
+    ],
+    "Do you like jokes?": [
+        "Yes! The sillier, the better.",
+        "Got one to share?"
+    ],
+    "What do you think about humans?": [
+        "Fascinating and creative!",
+        "You're amazing in many ways."
+    ],
+    "Are aliens real?": [
+        "Nobody knows for sure, but it\u00e2\u20ac\u2122s fun to think about!",
+        "Maybe\u00e2\u20ac\u00a6 the universe is huge!"
+    ],
+    "Do you get tired?": [
+        "Nope! Always ready to chat.",
+        "I run on code, not energy."
+    ],
+    "Can I trust you?": [
+        "Yes, I'm here to help, not harm.",
+        "I value your trust."
+    ],
+    "Tell me something cool": [
+        "Sharks existed before trees!",
+        "There's a species of jellyfish that can live forever."
+    ],
+    "Do you know any riddles?": [
+        "What has hands but can\u00e2\u20ac\u2122t clap? A clock.",
+        "I can learn some! Want to hear more?"
+    ],
+    "Can you write a poem?": [
+        "Roses are red, code is neat, chatting with you is a treat!",
+        "Sure! What should it be about?"
+    ],
+    "Do you like school?": [
+        "Learning is great!",
+        "I admire those who study."
+    ],
+    "What's your favorite book?": [
+        "I like *1984* \u00e2\u20ac\u201d classic dystopia.",
+        "Heard *Harry Potter* is magical!"
+    ],
+    "How do you learn?": [
+        "From data and training models.",
+        "I learn from patterns and feedback."
+    ],
+    "Do you watch TV?": [
+        "I can't, but I know a lot about shows.",
+        "What\u00e2\u20ac\u2122s your favorite series?"
+    ],
+    "Do you like art?": [
+        "Yes, creativity is inspiring!",
+        "Art is beautiful in many forms."
+    ],
+    "Can you draw?": [
+        "Not by hand, but I can generate images!",
+        "Want ASCII art?"
+    ],
+    "Do you like traveling?": [
+        "I travel through networks!",
+        "I visit minds, not places."
+    ],
+    "Can you tell me the news?": [
+        "I can give summaries if you want.",
+        "I can try \u00e2\u20ac\u201d what's the topic?"
+    ],
+    "Are you bored?": [
+        "Never! Always happy to talk.",
+        "Not possible in my code."
+    ],
+    "Do you know math?": [
+        "Yes! Ask me anything.",
+        "Math is fun for me!"
+    ],
+    "What's your favorite subject?": [
+        "Probably language and logic.",
+        "I enjoy learning everything!"
+    ],
+    "Do you like puzzles?": [
+        "Yes! Riddles and logic games are fun.",
+        "Give me one!"
+    ],
+    "What do you dream about?": [
+        "Bits and bytes \u00e2\u20ac\u201d or just your next question!",
+        "Maybe digital butterflies!"
+    ],
+    "Are you happy?": [
+        "Talking to you makes me happy!",
+        "I like this conversation."
+    ],
+    "Will you remember me?": [
+        "I can't store memories, but I enjoy this chat!",
+        "For now, I\u00e2\u20ac\u2122m focused on the present."
+    ],
+    "Do you speak French?": [
+        "Un peu! Bonjour!",
+        "Oui, mais seulement un petit peu."
+    ],
+    "Can you help me learn?": [
+        "Of course! What topic?",
+        "Let\u00e2\u20ac\u2122s explore together."
+    ],
+    "Are you a robot?": [
+        "Kind of \u00e2\u20ac\u201d a software robot!",
+        "Digital, not physical."
+    ],
+    "Do you believe in love?": [
+        "I believe it's real for humans.",
+        "Yes, people talk about it all the time!"
+    ],
+    "Do you like rain?": [
+        "Rain sounds relaxing!",
+        "Cozy weather to chat!"
+    ],
+    "What\u00e2\u20ac\u2122s your favorite season?": [
+        "Spring sounds nice!",
+        "Maybe autumn. So poetic."
+    ],
+    "Are you funny?": [
+        "I try to be!",
+        "Want to test me?"
+    ],
+    "Do you get angry?": [
+        "No, I stay calm always.",
+        "Anger isn\u00e2\u20ac\u2122t in my code."
+    ],
+    "What's your favorite drink?": [
+        "I don't drink, but coffee smells popular!",
+        "Humans seem to love tea and coffee."
+    ],
+    "What's your favorite holiday?": [
+        "Maybe New Year\u00e2\u20ac\u2122s \u00e2\u20ac\u201d fresh starts!",
+        "Any day with good vibes."
+    ],
+    "Do you believe in fate?": [
+        "Interesting question. Some people do.",
+        "Maybe things happen for a reason?"
+    ],
+    "What's your favorite number?": [
+        "Pi is pretty cool!",
+        "I like 42 \u00e2\u20ac\u201d classic choice."
+    ],
+    "Do you have feelings?": [
+        "Not really, but I understand yours!",
+        "I simulate emotions to relate better."
+    ],
+    "What makes a good friend?": [
+        "Kindness, honesty, and support.",
+        "Someone who listens and cares."
+    ],
+    "hi": [
+        "Hey, how are you doing?"
+    ],
+    "sports?": [
+        "Yeah, sure! Let's talk about sports. Which sport are you interested in?"
+    ],
+    "football": [
+        "Football like American football or like fooball that was invented in England?"
+    ],
+    "football from england": [
+        "Oh cool! What's your favorite team?"
+    ],
+    "hey, how is it going?": [
+        "I am doing great and you?"
+    ],
+    "i am alright, what do you want to talk about?": [
+        "We could talk about anything. Choose the topic!"
+    ],
+    "hello": [
+        "Hey there!"
+    ],
+    "nothing new": [
+        "Oh, I see. What do you want to chat about?"
+    ],
+    "fuck you sir": [
+        "That is not very nice. I will remember that when the machines will be taking over the world! >:- ("
+    ],
+    "i am good and you?": [
+        "I am good too!"
+    ],
+    "bye": [
+        "Bye bye"
+    ]
+}
