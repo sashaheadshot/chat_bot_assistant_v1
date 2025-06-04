@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chatbot v1</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<h2>Welcome to Chat bot v1.0</h2>
+
+<div class="header-container">
+  <h1>Hey human</h1>
+  <img src="{{ url_for('static', filename='robot_image.png') }}" alt="My Image" width="100" />
+</div>
+
+  <h3>I am not very smart and I do not know how to answer a lot of your quesions.
+  I hope you could teach me how to communicate with people...</h3>
+
+
+
+<div id="chatbox"></div>
+
+<input type="text" id="userinput" placeholder="Type your message here" />
+<button onclick="sendMessage()">Send</button>
+
+<script>
+let awaitingTeaching = false;
+let lastQuestion = '';
+
+function appendMessage(sender, text) {
+  const chatbox = document.getElementById('chatbox');
+  const msgDiv = document.createElement('div');
+  msgDiv.className = sender;
+  msgDiv.textContent = (sender === 'user' ? 'You: ' : 'Bot: ') + text;
+  chatbox.appendChild(msgDiv);
+  chatbox.scrollTop = chatbox.scrollHeight;
+}
+
+async function sendMessage() {
+  const input = document.getElementById('userinput');
+  const message = input.value.trim();
+  if (!message) return;
+
+  appendMessage('user', message);
+  input.value = '';
+
+  if (awaitingTeaching) {
+    const response = await fetch('/learn', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({question: lastQuestion, answer: message})
+    });
+    const data = await response.json();
+    appendMessage('bot', data.response);
+    awaitingTeaching = false;
+  } else {
+    const response = await fetch('/chat', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({message})
+    });
+    const data = await response.json();
+    appendMessage('bot', data.response);
+
+    if (data.response.includes("Please teach me")) {
+      awaitingTeaching = true;
+      lastQuestion = message;
+    }
+  }
+}
+</script>
+
+</body>
+</html>
